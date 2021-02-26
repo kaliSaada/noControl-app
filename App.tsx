@@ -8,13 +8,13 @@ import {
   StatusBar,
 } from 'react-native';
 
-const App: () => React$Node = () => {
+const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <View>
-          <Text>TEste</Text>
+          <Text>Teste</Text>
         </View>
       </SafeAreaView>
     </>

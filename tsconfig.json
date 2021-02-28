@@ -9,7 +9,11 @@
     "noEmit": true,
     "strict": true,
     "target": "esnext",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "paths": {
+      "@ui/*": ["src/package/UI/*"]
+    }
   },
   "exclude": [
     "node_modules",

@@ -17,7 +17,8 @@ export const Middle = styled.View`
   flex: 2;
   width: 100%;
   align-items: center;
-  background-color: #C9c9c9;
+  background-color: #c9c9c9;
+  justify-content: space-between;
 `;
 
 export const Footer = styled.View`

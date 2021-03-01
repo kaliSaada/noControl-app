@@ -7,7 +7,7 @@ interface inputProps {
   messageError: string;
 }
 
-export const Input: React.FC<inputProps> = ({label, messageError}) => {
+export const Button: React.FC<inputProps> = ({label, messageError}) => {
   const [value, onChangeText] = React.useState('');
 
   return (
@@ -15,10 +15,9 @@ export const Input: React.FC<inputProps> = ({label, messageError}) => {
       <InputLabel allowFontScaling>{label}</InputLabel>
       <TextInput
         style={{
-          borderBottomColor: '#FFF',
+          borderBottomColor: '#000000',
           borderBottomWidth: 1,
           fontSize: 20,
-            color: '#fff'
         }}
         onChangeText={(text) => onChangeText(text)}
         value={value}

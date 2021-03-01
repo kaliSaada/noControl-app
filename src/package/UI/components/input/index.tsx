@@ -18,7 +18,7 @@ export const Input: React.FC<inputProps> = ({label, messageError}) => {
           borderBottomColor: '#FFF',
           borderBottomWidth: 1,
           fontSize: 20,
-            color: '#fff'
+          color: '#fff',
         }}
         onChangeText={(text) => onChangeText(text)}
         value={value}
